@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css":"npx @tailwindcss/cli -i ./style.css -o ./assets/style.css --watch --minify"
+    "css":"npx @tailwindcss/cli build -i ../style.css -o ../assets/style.css --cwd ./templates  --watch --minify"
   },
   "keywords": [],
   "author": "",
